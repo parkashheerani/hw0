@@ -18,6 +18,12 @@ class TestAnswer():
 
     def test_number_x(self):
         TestAnswer.__total__ += 1
-        x,y = answer.number()
-        assert(x==1024)
+        x,y = answer.number(5)
+        assert(x==25)
+        TestAnswer.__correct__ += 1
+        
+    def test_number_y(self):
+        TestAnswer.__total__ += 1
+        x = answer.number(5)
+        assert(x==2)
         TestAnswer.__correct__ += 1
