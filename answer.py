@@ -1,3 +1,3 @@
 
-def number():
-	pass
+def number(n):
+	return n*n
