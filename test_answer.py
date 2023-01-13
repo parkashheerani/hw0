@@ -18,7 +18,7 @@ class TestAnswer():
 
     def test_number_x(self):
         TestAnswer.__total__ += 1
-        x,y = answer.number(5)
+        x = answer.number(5)
         assert(x==25)
         TestAnswer.__correct__ += 1
         
