@@ -1,3 +1,3 @@
 
 def number(n):
-	pass
+	return n*n
