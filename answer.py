@@ -7,7 +7,7 @@ Created on Mon Jan 16 13:45:19 2023
 """
 
 def sum(a, b):
-    return a + b
+    pass
 
 def product(a, b):
-    return a * b
+    pass
