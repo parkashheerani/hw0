@@ -1,3 +1,0 @@
-
-def number(n):
-	pass
